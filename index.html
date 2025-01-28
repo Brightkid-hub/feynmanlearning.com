@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily plans</title>
-    <link rel="stylesheet" href="style.css">
+<title>Text Summarizer & Flashcard Generator</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <div>
-            <h1>Today's tasks</h1>
-            <p>Create a new task</p>
-            <input id="taskinput" type="text" placeholder="task description"><br>
-            <input id="timeinput" type="text" placeholder="time"><br>
-            <button id="addtask" onclick="addtask()">Create</button>
-        </div>
+  <h1>Text Summarizer & Flashcard Generator</h1>
 
-        <div id="tasklist">
-            
-        </div>
-    </div>
-    <script src="script.js"></script>
+  <textarea id="textInput" placeholder="Enter your text here"></textarea><br>
+  <button id="generateButton">Generate Summary & Flashcards</button>
+
+  <div id="processing" style="display:none;">Processing...</div>
+
+  <div id="results" style="display:none;">
+    <h2>Summary</h2>
+    <div id="summary"></div>
+
+    <h2>Flashcards</h2>
+    <div id="flashcards"></div>
+    <button id="downloadFlashcards">Download Flashcards</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
