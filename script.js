@@ -107,3 +107,19 @@ downloadFlashcardsButton.addEventListener('click', () => {
   link.download = 'flashcards.txt';
   link.click();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

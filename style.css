@@ -31,3 +31,36 @@ textarea {
   display: none;
   margin-top: 5px;
 }
+
+
+
+
+
+
+
+
+/* style.css */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.flashcard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer; /* Indicate clickable flashcard */
+}
+
+.flashcard .front {
+  font-weight: bold;
+}
+
+.flashcard .back {
+  display: none; /* Initially hide the back */
+  margin-top: 5px;
+}

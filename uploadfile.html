@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PDF Summarizer & Flashcard Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PDF Summarizer & Flashcard Generator</h1>
+
+  <input type="file" id="pdfFile" accept=".pdf">
+  <button id="uploadButton">Upload PDF</button>
+
+  <div id="processing" style="display:none;">Processing...</div>
+
+  <div id="results" style="display:none;">
+    <h2>Summary</h2>
+    <div id="summary"></div>
+
+    <h2>Flashcards</h2>
+    <div id="flashcards">
+      </div>
+      <button id="downloadFlashcards">Download Flashcards</button>
+
+  </div>
+
+  <script src="uploaded.js"></script>
+</body>
+</html>
