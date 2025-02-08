@@ -64,3 +64,9 @@ body {
   display: none; /* Initially hide the back */
   margin-top: 5px;
 }
+
+#uploadpdf {
+  background-color: red;
+  border-radius: 50%;
+  font-weight: bold;
+}
